@@ -13,8 +13,7 @@ class ButtonGlobalTeste extends StatelessWidget {
       required this.widthButton,
       required this.colorButton,
       required this.textColor,
-      required this.heightButton
-      })
+      required this.heightButton})
       : super(key: key);
 
   @override
@@ -23,7 +22,8 @@ class ButtonGlobalTeste extends StatelessWidget {
       width: widthButton,
       height: heightButton,
       decoration: BoxDecoration(
-        border: Border.all(width: 2, color: const Color.fromRGBO(125, 96, 161, 1)),
+        border:
+            Border.all(width: 2, color: const Color.fromRGBO(125, 96, 161, 1)),
         borderRadius: BorderRadius.circular(30),
         color: colorButton,
       ),
